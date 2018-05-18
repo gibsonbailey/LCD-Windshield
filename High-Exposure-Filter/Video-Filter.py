@@ -30,6 +30,7 @@ while True:
     # dilate (expand) remaining white areas
     dilated = cv2.dilate(eroded, kernel, iterations=10)
     dilated = cv2.bitwise_not(dilated)
+    dilated = cv2.blur(dilated, (50,50))
 
     # getting shape of original image for resize
     height, width = img.shape[:2]
