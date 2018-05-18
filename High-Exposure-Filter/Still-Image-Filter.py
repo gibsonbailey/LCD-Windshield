@@ -5,8 +5,6 @@ import cv2
 import numpy as np
 
 
-WINDOW_NAME = ""
-
 # Read image from file as grayscale
 img = cv2.imread('test.jpg',cv2.IMREAD_GRAYSCALE)
 
