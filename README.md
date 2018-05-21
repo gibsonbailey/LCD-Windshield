@@ -3,3 +3,8 @@ Localized filtering of high-intensity light for automobile windscreens using an 
 
 
 ## Currently in prototype stage
+
+
+## Dependencies
+* OpenCV
+* NumPy
